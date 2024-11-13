@@ -1,0 +1,29 @@
+.hotelActions {
+  display: flex;
+  gap: 15px;
+}
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  border: none;
+}
+.delete-btn {
+  color: red;
+}
+.edit-btn {
+  color: rgb(11, 174, 41);
+}
+.latestOrders {
+  margin-top: 50px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table td {
+  text-align: center;
+}
+.tbody img {
+  width: 100px;
+  height: 100px;
+}

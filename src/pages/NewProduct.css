@@ -1,0 +1,62 @@
+.newHotel {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 200px;
+}
+.newHotel > div {
+  flex: 1;
+}
+.newProduct_form {
+  max-width: 100%;
+  color: black;
+}
+.form-controls {
+  margin-bottom: 15px;
+  max-width: 50%;
+}
+.form-controls,
+.form-controls label,
+.form-controls input,
+.form-controls textarea {
+  width: 100%;
+  display: block;
+}
+.form-controls label {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.form-controls input {
+  padding: 5px 3px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.form-controls input:focus {
+  outline: none;
+}
+.form-controls textarea {
+  padding: 3px 5px;
+}
+.form-controls textarea:focus {
+  outline: none;
+}
+.submit-button {
+  padding: 5px 15px;
+  display: block;
+  width: 150px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+.submit-button:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+}

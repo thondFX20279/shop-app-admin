@@ -1,0 +1,21 @@
+.chatNav {
+  padding-top: 20px;
+  position: fixed;
+  left: 250px;
+  width: 300px;
+  border-right: 1px solid #ccc;
+  height: 100vh;
+  top: 70px;
+}
+.roomList {
+  list-style-type: none;
+}
+.roomList li {
+  padding: 5px 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+.roomList li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

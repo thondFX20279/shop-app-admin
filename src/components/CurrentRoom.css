@@ -1,0 +1,71 @@
+.room {
+  position: fixed;
+  left: 550px;
+  top: 70px;
+  padding: 20px 0 0 0;
+  width: calc(100vw - 550px);
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+}
+.messages {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 100%;
+  overflow-y: auto;
+}
+.left,
+.right {
+  margin-bottom: 10px;
+}
+.left {
+  align-self: flex-start; /* Căn trái cho tin nhắn của người khác */
+  background-color: #e0e0e0; /* Màu nền cho tin nhắn của người khác */
+  border-radius: 10px; /* Bo tròn góc cho tin nhắn */
+  padding: 10px; /* Khoảng cách bên trong tin nhắn */
+  max-width: 70%; /* Chiều rộng tối đa của tin nhắn */
+  word-wrap: break-word; /* Ngăn nội dung bị tràn ra ngoài */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ cho tin nhắn */
+}
+
+.right {
+  align-self: flex-end; /* Căn phải cho tin nhắn của người dùng */
+  background-color: #0084ff; /* Màu nền cho tin nhắn của người dùng */
+  color: white; /* Màu chữ cho tin nhắn của người dùng */
+  border-radius: 10px; /* Bo tròn góc cho tin nhắn */
+  padding: 10px; /* Khoảng cách bên trong tin nhắn */
+  max-width: 70%; /* Chiều rộng tối đa của tin nhắn */
+  word-wrap: break-word; /* Ngăn nội dung bị tràn ra ngoài */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ cho tin nhắn */
+}
+.roomAction {
+  height: 50px;
+  display: flex;
+  padding: 0 20px;
+  border-top: 1px #ccc solid;
+  /* align-items: center; */
+}
+.roomAction input {
+  display: block;
+  flex: 1;
+  height: 50px;
+  border: none;
+  box-sizing: border-box;
+}
+.roomAction input:focus {
+  outline: none;
+}
+.roomAction button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  background-color: #fff;
+  height: 50px;
+  border: none;
+}
+.roomAction button:hover {
+  cursor: pointer;
+}

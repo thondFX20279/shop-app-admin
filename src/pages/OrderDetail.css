@@ -1,0 +1,35 @@
+.order_table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+
+  th,
+  td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+
+  td {
+    color: #333;
+  }
+}
+
+.order_thead {
+  background-color: #f8f9fa;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.order_tbody {
+  font-size: 13px;
+  img {
+    width: 150px;
+    height: 150px;
+  }
+}
