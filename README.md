@@ -2,7 +2,7 @@
 This is the Admin section of the Shop App, built with ReactJS and deployed on Netlify. The admin dashboard allows for the management of Products, Orders, and Chat rooms.
 
 ## Demo Link
-You can view the demo here: [Admin Dashboard Demo](https://booking-app-admin-12323232.netlify.app/)
+You can view the demo here: [Admin Dashboard Demo](https://shop-app-admin1133131.netlify.app/)
 
 ## Functionalities
 
