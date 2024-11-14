@@ -1,4 +1,31 @@
+# Admin Dashboard - Shop App
+This is the Admin section of the Shop App, built with ReactJS and deployed on Netlify. The admin dashboard allows for the management of Products, Orders, and Chat rooms.
+
+## Demo Link
+You can view the demo here: [Admin Dashboard Demo](https://booking-app-admin-12323232.netlify.app/)
+
+## Functionalities
+
+This section provides admins with the following features:
+
+- **Login** - Secure login for admin access.
+- **Orders History** - Admin can view a detailed list of user transactions.
+- **CRUD Product** - Admin can manage products details, such as adding, updating, or deleting products.
+- **Chat Room** - Admin can manage room, reply customer message.
+
+## Technologies Used
+
+- ReactJS
+- HTML
+- CSS
+- JavaScript
+- Netlify (for hosting)
+
 # Getting Started with Create React App
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/thondFX20279/booking-app-admin.git
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
