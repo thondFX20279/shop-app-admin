@@ -14,7 +14,7 @@ const Login = () => {
     handleSubmit,
     setError,
     formState: { errors },
-  } = useForm({ defaultValues: { email: "tho.nguyenlk@hcmut.edu.vn", password: "nguyenductho123" } });
+  } = useForm({ defaultValues: { email: process.env.REACT_APP_EMAIL, password: process.env.REACT_APP_PASSWORD } });
 
   const submitHandler = async (data) => {
     setIsLoading(true);
