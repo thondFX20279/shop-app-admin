@@ -14,7 +14,7 @@ const Login = () => {
     handleSubmit,
     setError,
     formState: { errors },
-  } = useForm();
+  } = useForm({ defaultValues: { email: "tho.nguyenlk@hcmut.edu.vn", password: "nguyenductho123" } });
 
   const submitHandler = async (data) => {
     setIsLoading(true);
